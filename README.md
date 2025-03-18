@@ -6,4 +6,4 @@
 4. Main thread will block and will never return while waiting on indexer
 5. Expected behaviour: Indexer should throw exception, so main will not block
 
-This happens only with infinispan version 14.X.X, with 13,15 it works.
+This happens only with infinispan version 14.X.X, with 13.X.X, 15.X.X it works.
